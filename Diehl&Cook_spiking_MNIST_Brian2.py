@@ -17,7 +17,7 @@ import brian2 as b2
 from brian2tools import *
 
 # specify the location of the MNIST data
-MNIST_data_path = ''
+MNIST_data_path = 'C:\Users\Administrator2\Dropbox\My PC (DESKTOP-T85O4L4)\Desktop\Neural Networks - Wilton\unused\mnist_data'
 
 #------------------------------------------------------------------------------
 # functions
@@ -211,7 +211,7 @@ print 'time needed to load test set:', end - start
 #------------------------------------------------------------------------------
 # set parameters and equations
 #------------------------------------------------------------------------------
-test_mode = True
+test_mode = False
 
 np.random.seed(0)
 data_path = './'
